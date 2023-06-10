@@ -8,11 +8,27 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-height: 100dvh;
   max-width: 375px;
   margin-inline: auto;
+  background-color: hsl(var(--very-dark-blue));
+  color: hsl(var(--light-grey));
   font-size: 0.9375rem;
 
   @media (min-width: 1440px) {
     max-width: 1440px;
   }
+}
+
+a,
+button {
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: underline;
 }

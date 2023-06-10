@@ -1,0 +1,24 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  aspect-ratio: 1;
+  background-color: hsla(var(--medium-grey), 0.2);
+  border-radius: 9999px;
+  font-weight: 700;
+
+  transition-property: background-color color;
+  transition-duration: 100ms;
+  transition-timing-function: ease-in;
+
+  &:hover {
+    background-color: hsl(var(--orange));
+    color: hsl(var(--white));
+  }
+}
+
+.is-selected {
+  background-color: hsl(var(--medium-grey));
+  color: hsl(var(--white));
+}

@@ -5,10 +5,6 @@
   transform: translateX(-50%);
 
   & a {
-    color: hsl(var(--light-grey));
-
-    &:hover {
-      text-decoration: underline;
-    }
+    color: hsl(var(--medium-grey));
   }
 }
