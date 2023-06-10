@@ -1,0 +1,18 @@
+:root {
+  --orange: 25, 97%, 53%;
+  --white: 0, 0%, 100%;
+  --light-grey: 217, 12%, 63%;
+  --medium-grey: 216, 12%, 54%;
+  --dark-blue: 213, 19%, 18%;
+  --very-dark-blue: 216, 12%, 8%;
+}
+
+body {
+  max-width: 375px;
+  margin-inline: auto;
+  font-size: 0.9375rem;
+
+  @media (min-width: 1440px) {
+    max-width: 1440px;
+  }
+}
