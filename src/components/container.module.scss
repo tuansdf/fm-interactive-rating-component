@@ -11,4 +11,8 @@
     hsl(var(--dark-blue)),
     hsl(var(--dark-blue), 0.5)
   );
+
+  @media (min-width: 800px) {
+    max-width: 400px;
+  }
 }
